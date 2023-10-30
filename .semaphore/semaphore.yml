@@ -11,6 +11,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
+            - ./mvnw package
       agent:
         machine:
           type: a1-standard-4
